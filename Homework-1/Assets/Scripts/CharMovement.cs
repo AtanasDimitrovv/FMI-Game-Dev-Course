@@ -20,6 +20,8 @@ public class CharMovement : MonoBehaviour
 
     private GameObject respawnSpot;
 
+    public Animator animator;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -46,6 +48,8 @@ public class CharMovement : MonoBehaviour
             isOnGround = false;
         }
 
+        animator.SetFloat("Speed", Mathf.Abs(horizontalInput * moveSpeed));
+
         transform.Translate(new Vector2(horizontalInput, 0) * moveSpeed * Time.deltaTime);
     }
 
@@ -53,6 +57,7 @@ public class CharMovement : MonoBehaviour
     {
         if (shouldJump)
         {
+            animator.SetBool("isJumping", true);
             rb.AddForce(Vector2.up * jumpAmount, ForceMode2D.Impulse);
             shouldJump = false;
         }
@@ -69,6 +74,7 @@ public class CharMovement : MonoBehaviour
 
     public void StepOnGround()
     {
+        animator.SetBool("isJumping", false);
         isOnGround = true;
     }
 

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6640703350689941745}
   - component: {fileID: 6640703350689941750}
   - component: {fileID: 1536886355}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FallingPlatform
   m_TagString: Ground
   m_Icon: {fileID: 0}
