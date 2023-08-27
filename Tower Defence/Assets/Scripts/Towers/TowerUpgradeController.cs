@@ -7,11 +7,15 @@ public class TowerUpgradeController : MonoBehaviour
     private Tower tower;
 
     public UpgradeStage[] rangeUpgrades;
+    [HideInInspector]
     public int currRangeUpgrade;
+    [HideInInspector]
     public bool hasRangeUpgrade = true;
 
     public UpgradeStage[] fireRateUpgrades;
+    [HideInInspector]
     public int currFireRateUpgrade;
+    [HideInInspector]
     public bool hasFireRateUpgrade = true;
 
     // Start is called before the first frame update

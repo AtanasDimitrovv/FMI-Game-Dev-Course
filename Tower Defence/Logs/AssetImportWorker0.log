@@ -15,7 +15,7 @@ D:/GameDevCourse/Tower Defence
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55232
+57748
 Successfully changed project path to: D:/GameDevCourse/Tower Defence
 D:/GameDevCourse/Tower Defence
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/GameDevCourse/Tower Defence
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8224] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 783919727 [EditorId] 783919727 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G4V0HNQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17036] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 2200391254 [EditorId] 2200391254 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G4V0HNQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8224] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 783919727 [EditorId] 783919727 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G4V0HNQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17036] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 2200391254 [EditorId] 2200391254 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G4V0HNQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 87.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -67,92 +67,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.009421 seconds.
+Registered in 0.009402 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.789 seconds
+- Completed reload, in  0.681 seconds
 Domain Reload Profiling:
-	ReloadAssembly (790ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (681ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (560ms)
-			LoadAssemblies (95ms)
+		EndReloadAssembly (486ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
+			SetupTypeCache (111ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (340ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (295ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (88ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (84ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003626 seconds.
+Registered in 0.003468 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\GameDevCourse\Tower Defence\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\GameDevCourse\Tower Defence\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.195 seconds
+- Completed reload, in  1.017 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1196ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (1017ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (926ms)
-			LoadAssemblies (98ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (783ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
+			SetupTypeCache (264ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (432ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (340ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (272ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (113.8 KB). Loaded Objects now: 3582.
-Memory consumption went from 112.0 MB to 111.8 MB.
-Total: 4.329100 ms (FindLiveObjects: 0.334500 ms CreateObjectMapping: 0.679400 ms MarkObjects: 3.104800 ms  DeleteObjects: 0.209000 ms)
+Unloading 24 unused Assets / (113.7 KB). Loaded Objects now: 3582.
+Memory consumption went from 112.0 MB to 111.9 MB.
+Total: 2.981900 ms (FindLiveObjects: 0.242500 ms CreateObjectMapping: 0.156800 ms MarkObjects: 2.475200 ms  DeleteObjects: 0.106600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,145 +166,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 265699.482088 seconds.
-  path: Assets/Assets
-  artifactKey: Guid(f997349cc8e1cf84a8fe429aa95664b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets using Guid(f997349cc8e1cf84a8fe429aa95664b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5e0a9f436d5bd49bc2c0ffd7eae506') in 0.013768 seconds 
+  Time since last request: 273423.461587 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5648c5ef36b7beab651a001a8d08867') in 0.005049 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.336842 seconds.
-  path: Assets/Animations
-  artifactKey: Guid(f5ab492c8dac13d4bac1318ffd3e0234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations using Guid(f5ab492c8dac13d4bac1318ffd3e0234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0385a0a3a50c77503e0b24b829ceaa1d') in 0.001760 seconds 
+  Time since last request: 7.247467 seconds.
+  path: Assets/Scenes/Level 5.unity
+  artifactKey: Guid(d0adb75257f4afd409e74b20dc73d9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 5.unity using Guid(d0adb75257f4afd409e74b20dc73d9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba6f59876011d71d5a29cd1f25500bc') in 0.001900 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.467477 seconds.
-  path: Assets/Assets/Audio
-  artifactKey: Guid(bf55a40617dd0d341957b418f75d6ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Audio using Guid(bf55a40617dd0d341957b418f75d6ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a56935d7cf7d00cc854cf8b10f3d36a') in 0.001592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.207966 seconds.
-  path: Assets/Assets/Audio/Music
-  artifactKey: Guid(8cc6c9ea5aceaef418e501e08496eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Audio/Music using Guid(8cc6c9ea5aceaef418e501e08496eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1173fd1b167453b6ff29f4d20ade49a') in 0.000935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.366642 seconds.
-  path: Assets/Assets/Audio/Music/Background Music
-  artifactKey: Guid(85845a5fa93b3634aba7c9e8fd1ed777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Audio/Music/Background Music using Guid(85845a5fa93b3634aba7c9e8fd1ed777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8041048d42df49723097d91601daaf') in 0.001685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.464290 seconds.
-  path: Assets/Assets/Models/Quaternius - Cute Animated Monsters/Textures
-  artifactKey: Guid(4137e6e2fb379ad47b31ffa536ddc94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Quaternius - Cute Animated Monsters/Textures using Guid(4137e6e2fb379ad47b31ffa536ddc94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae96a01a8e2a0822abc5abca33bceda') in 0.001249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.775732 seconds.
-  path: Assets/Assets/Models/Quaternius - Cute Animated Monsters/Textures/Bee_Texture.png
-  artifactKey: Guid(68dd26a0dd03563499e539f8604bf260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Quaternius - Cute Animated Monsters/Textures/Bee_Texture.png using Guid(68dd26a0dd03563499e539f8604bf260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da13ec35d098bc6e2d4e9908a8f8fe9c') in 0.270167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.490795 seconds.
-  path: Assets/Assets/Models/Kenney Tower Defence Kit/detail_dirtLarge.fbx
-  artifactKey: Guid(363c3df9f3c789849a7d37d9b00fbe0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Kenney Tower Defence Kit/detail_dirtLarge.fbx using Guid(363c3df9f3c789849a7d37d9b00fbe0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6daa5f36a72541d7e0d2af6715a86918') in 0.176185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.119946 seconds.
-  path: Assets/Assets/Models/Kenney Tower Defence Kit/detail_rocks.fbx
-  artifactKey: Guid(5ee12278bd519b64e84b8b035b1b3eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Kenney Tower Defence Kit/detail_rocks.fbx using Guid(5ee12278bd519b64e84b8b035b1b3eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4f5c34ec00509b6c16e386b2bfb9db') in 0.014548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.662509 seconds.
-  path: Assets/Assets/Models/Kenney Tower Defence Kit/snow_tile_cornerOuter.fbx
-  artifactKey: Guid(d42a7785ce6bbf4448d9f1f3e88acd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Kenney Tower Defence Kit/snow_tile_cornerOuter.fbx using Guid(d42a7785ce6bbf4448d9f1f3e88acd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993627c410cff55851ac42a8511623c6') in 0.113770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.428561 seconds.
-  path: Assets/Assets/Models/Kenney Tower Defence Kit/snow_tile_riverSlope.fbx
-  artifactKey: Guid(28c4ae96d21238941bf40443860156fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Kenney Tower Defence Kit/snow_tile_riverSlope.fbx using Guid(28c4ae96d21238941bf40443860156fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738957b06c293e3722ca7025d2785129') in 0.010400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.468040 seconds.
-  path: Assets/Assets/Models/Kenney Tower Defence Kit/snow_tile_riverCorner.fbx
-  artifactKey: Guid(2e473d656f03c4540a6ef1432bbd315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Kenney Tower Defence Kit/snow_tile_riverCorner.fbx using Guid(2e473d656f03c4540a6ef1432bbd315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34414ad6bc4a60c91887e5b28c25685') in 0.010755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.713706 seconds.
-  path: Assets/Assets/Models/Kenney Tower Defence Kit/snow_woodStructure_high.fbx
-  artifactKey: Guid(769eaea9757c36441b3e771afd8c8b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Kenney Tower Defence Kit/snow_woodStructure_high.fbx using Guid(769eaea9757c36441b3e771afd8c8b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1db6ebe30ffb48fca3702c2c451da34') in 0.013919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.033164 seconds.
-  path: Assets/Assets/Models/Kenney Tower Defence Kit/snow_tile_wideTransition.fbx
-  artifactKey: Guid(54a1d7be25bc3e24287f9d64f2ab96e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Kenney Tower Defence Kit/snow_tile_wideTransition.fbx using Guid(54a1d7be25bc3e24287f9d64f2ab96e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a25452469de147c3098ad5a63d3c81') in 0.013872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.443269 seconds.
-  path: Assets/Assets/Models/Kenney Tower Defence Kit/snow_tile_wideCorner.fbx
-  artifactKey: Guid(0540ce023c091da4aa2538b5717b2b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Kenney Tower Defence Kit/snow_tile_wideCorner.fbx using Guid(0540ce023c091da4aa2538b5717b2b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c393d4c5da4c59d6ac8b54c59f53b05e') in 0.051086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.769086 seconds.
-  path: Assets/Assets/Models/Kenney Tower Defence Kit/tile_riverBridge.fbx
-  artifactKey: Guid(7bf631e43f0daa847b25abd40a006847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Kenney Tower Defence Kit/tile_riverBridge.fbx using Guid(7bf631e43f0daa847b25abd40a006847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e159f50041ffabfa8fb9c78e6c2d51e6') in 0.011714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.508776 seconds.
-  path: Assets/Assets/Models/Kenney Tower Defence Kit/tile_transition.fbx
-  artifactKey: Guid(0cd43c83bcecdd248aa9907fff24fbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Kenney Tower Defence Kit/tile_transition.fbx using Guid(0cd43c83bcecdd248aa9907fff24fbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932e10c5df9f81434554430d7aba5594') in 0.010933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.618499 seconds.
-  path: Assets/Assets/Models/Kenney Tower Defence Kit/tile_tree.fbx
-  artifactKey: Guid(a475ec917b0f9864db7d832c2fed6f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Kenney Tower Defence Kit/tile_tree.fbx using Guid(a475ec917b0f9864db7d832c2fed6f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18aaffc79e235ee1b9cc2012ba53954') in 0.021360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008036 seconds.
-  path: Assets/Assets/Models/Kenney Tower Defence Kit/towerRound_sampleC.fbx
-  artifactKey: Guid(3bab85646f5ce0348bea8edf4367a227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Kenney Tower Defence Kit/towerRound_sampleC.fbx using Guid(3bab85646f5ce0348bea8edf4367a227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3740d0e4f57f3dcd13f4d13887f611') in 0.016136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.573527 seconds.
-  path: Assets/Assets/Models/Kenney Tower Defence Kit/towerSquare_sampleD.fbx
-  artifactKey: Guid(77c3a069f57c9ed448cb52253b2bd71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Kenney Tower Defence Kit/towerSquare_sampleD.fbx using Guid(77c3a069f57c9ed448cb52253b2bd71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b54fd4aecaa0743caf743ab39efb75') in 0.014090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.952144 seconds.
-  path: Assets/Assets/Models/Kenney Tower Defence Kit/towerSquare_topC.fbx
-  artifactKey: Guid(134e6b15fc0c1b94685080b0998ae9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Kenney Tower Defence Kit/towerSquare_topC.fbx using Guid(134e6b15fc0c1b94685080b0998ae9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3941815c3e434a1858659c947545551c') in 0.012045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.432410 seconds.
-  path: Assets/Assets/Models/Environment Assets
-  artifactKey: Guid(f981c4e328f8af84eabb72ae9c2a4d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Environment Assets using Guid(f981c4e328f8af84eabb72ae9c2a4d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2368e13390ea6e9337ee3a1fd4d39d53') in 0.001549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.588040 seconds.
-  path: Assets/Assets/Models/Quaternius - Cute Animated Monsters/Materials
-  artifactKey: Guid(28f7b8df7603c89439ded84927560b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Quaternius - Cute Animated Monsters/Materials using Guid(28f7b8df7603c89439ded84927560b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34de648079dd85dc2f6a6f1ed3f0da2b') in 0.002179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.479168 seconds.
-  path: Assets/Assets/Models/Enemy Assets
-  artifactKey: Guid(60df4d8dea185cd438412a110c246df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Enemy Assets using Guid(60df4d8dea185cd438412a110c246df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8136a326b7996e04d7ae381375481c') in 0.001085 seconds 
+  Time since last request: 53.114546 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(7c07059eccd17bb4fb37c57af085a7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(7c07059eccd17bb4fb37c57af085a7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c98a4190ebe12cf5580ebc4c994125') in 0.001326 seconds 
